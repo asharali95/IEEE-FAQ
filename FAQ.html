@@ -10,7 +10,7 @@
       href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IEEE</title>
+    <title>accordian menu</title>
     <style>
       body {
         box-sizing: border-box;
@@ -25,7 +25,6 @@
       }
       .container {
         padding: 10px;
-        margin: 15px 0px;
         width: 80vw;
         background-color: rgb(230, 230, 230);
       }
@@ -41,6 +40,19 @@
       .right{
         flex: 5px;
       }
+      @media only screen and (max-width:724px){
+        .right>h1{
+          font-size: 25px !important;
+        }
+        .header{
+          flex-direction: column;
+        }
+        img{
+          width: 60px;
+        }
+      }
+      
+
     </style>
   </head>
   <body class="flex">
@@ -49,7 +61,7 @@
         <div class="left">
           <img src="./Asset/student branch.png" width="100" alt="IEEE CS" style="padding: 0px 10px;" />
         <img src="./Asset/IEEE CS.png" width="100" alt="IEEE CS" style="padding: 0px 10px;" />
-        <img src="./Asset/wei.png" width="120" alt="IEEE CS" style="padding: 0px 10px;" />
+        <img src="./Asset/wei.png" width="100" alt="IEEE CS" style="padding: 0px 10px;" />
 
         </div>
         <div class="right">
